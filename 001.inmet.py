@@ -177,31 +177,31 @@ for i in range(lenr):
 #---
 
 
-plt.subplots(4, 1, figsize=(15, 6), dpi=80)
+plt.subplots(1, 1, figsize=(15, 6), dpi=80)
 
-plt.subplot(4,1,1)
+plt.subplot(1,1,1)
 plt.plot(   df['dia_juliano'], df['temp_max'], color='red',   label='temp. maxima') #marker='o', 
 plt.plot(   df['dia_juliano'], df['temp_min'], color='blue',  label='temp. minima')
 plt.legend(fontsize=8)
 #plt.xlim(0,   365)
 #plt.ylim(0, 1200)
 
-plt.subplot(4,1,2)
-plt.plot( df['dia_juliano'], df['rad_global'], color='black')   #,  marker='o'
+#plt.subplot(4,1,2)
+#plt.plot( df['dia_juliano'], df['rad_global'], color='black')   #,  marker='o'
 #plt.legend(fontsize=8)
-plt.xlim(0,   365)
+#plt.xlim(0,   365)
 #plt.ylim(-750,  750)
 
-plt.subplot(4,1,3)
-plt.bar( df['dia_juliano'], df['prec'], color='magenta')   #,  marker='o'
+#plt.subplot(4,1,3)
+#plt.bar( df['dia_juliano'], df['prec'], color='magenta')   #,  marker='o'
 #plt.legend(fontsize=8)
-plt.xlim(0,   365)
+#plt.xlim(0,   365)
 #plt.ylim(-750,  750)
 
-plt.subplot(4,1,4)
-plt.plot( df['dia_juliano'], df['vento'], color='cyan')   #,  marker='o'
+#plt.subplot(4,1,4)
+#plt.plot( df['dia_juliano'], df['vento'], color='cyan')   #,  marker='o'
 #plt.legend(fontsize=8)
-plt.xlim(0,   365)
+#plt.xlim(0,   365)
 #plt.ylim(-750,  750)
 
 
