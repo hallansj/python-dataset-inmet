@@ -71,7 +71,7 @@ def stringInt(variable):
 
 #--------
 
-direct_xls = '/home/hallan/pesquisa/hsj.github/IFTO.INFO/norte/'
+direct_xls =  os.path.join('2A21')
 
 arr = os.listdir(direct_xls)
 
@@ -86,7 +86,7 @@ for file in arr:
 
     cod_inmet = str( file[6:10] )
 
-    arquivos = '/home/hallan/pesquisa/hsj.github/IFTO.INFO/norte/'+ file +''
+    arquivos =  os.path.join('2A21', file)
 
     #----
     #----
